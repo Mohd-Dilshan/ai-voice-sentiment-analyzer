@@ -1,25 +1,13 @@
-# Audio Sentiment Analyzer
+# AI Voice Sentiment Analyzer
 
-This project converts speech into text using OpenAI Whisper 
-and analyzes the emotional sentiment of the transcription 
-using HuggingFace Transformers.
+This project converts speech into text using OpenAI Whisper
+and analyzes the sentiment of the spoken content using
+HuggingFace Transformers.
 
-Workflow:
-Audio → Speech-to-Text (Whisper) → Sentiment Analysis
+Features:
+- Audio to Text (Speech Recognition)
+- Sentiment Analysis
+- Web Interface using Gradio
 
-Technologies Used:
-- Python
-- OpenAI Whisper
-- HuggingFace Transformers
-- Google Colab
-
-Example Output:
-
-Input Audio:
-"I am very happy today"
-
-Transcription:
-I am very happy today
-
-Sentiment:
-POSITIVE
+Technologies:
+Python, Whisper AI, Transformers, Gradio, Google Colab
