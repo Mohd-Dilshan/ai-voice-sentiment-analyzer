@@ -1,10 +1,7 @@
-# ai-voice-sentiment-analyzer
-AI-powered audio sentiment analyzer that converts speech to text using OpenAI Whisper and analyzes emotional sentiment using HuggingFace Transformers. Built and executed on Google Colab.
+# Audio Sentiment Analyzer
 
-Audio Sentiment Analyzer using Whisper AI
-
-This project converts speech into text using OpenAI Whisper
-and analyzes the emotional sentiment of the transcription
+This project converts speech into text using OpenAI Whisper 
+and analyzes the emotional sentiment of the transcription 
 using HuggingFace Transformers.
 
 Workflow:
@@ -16,5 +13,13 @@ Technologies Used:
 - HuggingFace Transformers
 - Google Colab
 
-This project demonstrates how AI can analyze spoken
-language and detect emotional sentiment automatically.
+Example Output:
+
+Input Audio:
+"I am very happy today"
+
+Transcription:
+I am very happy today
+
+Sentiment:
+POSITIVE
